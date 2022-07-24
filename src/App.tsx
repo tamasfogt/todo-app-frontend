@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/Home";
-import Todo from "./pages/Todo";
+import About from "./pages/About";
 import { Routes, Route } from "react-router-dom";
 import DefaultLayout from "./layouts/DefaultLayout";
 
@@ -10,7 +10,7 @@ function App() {
       <DefaultLayout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/todo" element={<Todo />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </DefaultLayout>
     </div>

@@ -1,3 +1,8 @@
+import TodoList from "../components/todo/TodoList";
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div className="w-full">
+      <TodoList></TodoList>
+    </div>
+  );
 }

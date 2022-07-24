@@ -1,6 +1,6 @@
 import DefaultLayout from "../DefaultLayout";
 import { render } from "@testing-library/react";
 
-test("renders learn react link", () => {
+test("renders default layout", () => {
   render(<DefaultLayout>Child content</DefaultLayout>);
 });
